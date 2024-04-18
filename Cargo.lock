@@ -3,5 +3,25 @@
 version = 3
 
 [[package]]
+name = "Esempi"
+version = "0.1.0"
+
+[[package]]
+name = "Laboratori"
+version = "0.1.0"
+
+[[package]]
 name = "PdS_Rust"
+version = "0.1.0"
+
+[[package]]
+name = "es1_lab2"
+version = "0.1.0"
+
+[[package]]
+name = "lab1"
+version = "0.1.0"
+
+[[package]]
+name = "lab2"
 version = "0.1.0"

@@ -1,3 +1,8 @@
+workspace = { members = [ "Esempi", "Laboratori",
+    "Laboratori/lab1",
+    "Laboratori/lab2","Laboratori/lab2/es1_lab2", "Laboratori/lab2/es1_lab2",
+    "Esempi"
+] }
 [package]
 name = "PdS_Rust"
 version = "0.1.0"
