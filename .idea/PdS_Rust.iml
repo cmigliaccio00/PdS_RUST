@@ -8,6 +8,11 @@
       <sourceFolder url="file://$MODULE_DIR$/Laboratori/lab2/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Laboratori/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Laboratori/lab1/es1_lab1/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Laboratori/lab1/es2_lab1/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Laboratori/lab2/es1b_lab2/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Laboratori/lab2/es2_lab2/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Laboratori/lab2/es2_lab2/tests" isTestSource="true" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
     <orderEntry type="inheritedJdk" />
