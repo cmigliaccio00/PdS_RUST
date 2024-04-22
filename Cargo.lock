@@ -15,6 +15,10 @@ name = "PdS_Rust"
 version = "0.1.0"
 
 [[package]]
+name = "Trait_Index"
+version = "0.1.0"
+
+[[package]]
 name = "anstream"
 version = "0.6.13"
 source = "registry+https://github.com/rust-lang/crates.io-index"

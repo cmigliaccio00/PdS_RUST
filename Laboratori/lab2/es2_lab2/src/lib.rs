@@ -3,6 +3,7 @@ pub mod solution{
     use std::ops::{Add, AddAssign};
     use std::process::Output;
 
+    #[derive(Copy, Clone)]
     pub struct ComplexNumber{
         Real: f64,
         Imag: f64
