@@ -1,6 +1,6 @@
 workspace = { members = [ "Esempi", "Laboratori",
     "Laboratori/lab1","Laboratori/lab1/es1_lab1", "Laboratori/lab1/es2_lab1",
-    "Laboratori/lab2","Laboratori/lab2/es1_lab2", "Laboratori/lab2/es2_lab2",
+    "Laboratori/lab2","Laboratori/lab2/es1_lab2", "Laboratori/lab2/es2_lab2", "Laboratori/lab2/es3_lab2",
     "Laboratori/lab2/es1b_lab2",
     "Esempi", "Esempi/Trait_Index"
 ] }

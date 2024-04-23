@@ -1,3 +1,4 @@
+use std::collections::VecDeque;
 use es2_lab2::solution::ComplexNumber;
 
 // for this execise see https://doc.rust-lang.org/beta/std/primitive.f64.html
@@ -85,7 +86,7 @@ pub fn test_enable_copy(){
 
     assert_eq!(b.to_tuple(), (2.0, 4.0));
 }
-/*
+
 
 #[test]
 pub fn test_default_values() {
@@ -105,8 +106,8 @@ pub fn test_convert_into_real() {
     let b: f64 = a.into();
     
     assert_eq!(b, 1.0);
-
 }
+
 
 #[test]
 pub fn test_panic_when_impossible_to_convert_to_real() {
@@ -120,20 +121,35 @@ pub fn test_panic_when_impossible_to_convert_to_real() {
     assert!(result.is_err());
 }
 
+/*
 #[test]
 pub fn test_try_into_f64() {
     // write trait and a test for the Trait TryInto for converting into f64
     // the test must check both success and error conditions
-    assert!(true);
+
+    let z1=ComplexNumber::new(3.14, 0.0);
+    let z2=ComplexNumber::new(1.0, 1.0);
+
+    //Test success
+    assert_eq!(z1.try_into(), Ok(3.14));
+
+    //Test error
+    assert_eq!(z2.try_into(), Err("Errore"));
 }
+
 
 #[test]
 pub fn test_try_form_f64() {
     // write a trait allowing let complex = f64.into()
     // and write test
+
+    let f=3.14;
+    let complex=f.into();
+
+    assert_eq!(complex, ComplexNumber::new(3.14, 0.0));
 }
 
-
+*/
 #[test]
 pub fn test_comparison() {
     let c = ComplexNumber::new(3.0, 6.0);
@@ -168,6 +184,7 @@ pub fn test_sorting() {
     assert_eq!(v[2], c);
 }
 
+
 #[test]
 pub fn test_as_ref() {
     // implement AsRef<f64> for ComplexNumber
@@ -178,6 +195,7 @@ pub fn test_as_ref() {
 
     assert_eq!(*r, 1.0);
 }
+
 
 #[test]
 pub fn test_as_mut() {
@@ -214,8 +232,6 @@ pub fn test_hash_with_hash_map() {
         None => assert!(false),
         Some(x) => assert_eq!(x.to_tuple(), (2.0, 4.0)) // should return the old value, b
     };
-        
-
 }
 
 
@@ -228,5 +244,22 @@ pub fn test_deque() {
     // 5. check the result: it should be meaningless
     // 3. sort the deque and check afain the result of binary_search, now it should be meaningful
 
+    let mut vettore:VecDeque<ComplexNumber> = VecDeque::with_capacity(10);
+
+    let mut inc=0.0;
+    for i in 1..10{
+
+        vettore.push_front(ComplexNumber::new(3.0, 3.5+inc));
+        inc = inc + 1.0;
+    }
+
+    let mut c=vettore.binary_search(&ComplexNumber::new(3.0, 3.5));
+
+    assert_eq!(c, Err(0));
+
+    //Ordiniamo il VecDeque
+    vettore.make_contiguous().sort();
+    c=vettore.binary_search(&ComplexNumber::new(3.0, 3.5));
+
+    assert_eq!(c, Ok(0))
 }
-*/
