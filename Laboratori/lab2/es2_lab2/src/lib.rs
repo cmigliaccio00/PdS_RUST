@@ -13,7 +13,8 @@ pub mod solution{
     use std::ops::{Add, AddAssign};
     use std::process::Output;
 
-    #[derive(Copy, Clone, Default, Debug, PartialEq)]
+    //#[derive(Copy, Clone, Default, Debug, PartialEq)]
+    #[derive(Default, Debug, PartialEq)]
     pub struct ComplexNumber{
         Real: f64,
         Imag: f64

@@ -16,6 +16,8 @@
       <sourceFolder url="file://$MODULE_DIR$/Esempi/Trait_Index/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Laboratori/lab2/es3_lab2/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Laboratori/lab2/es3_lab2/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/Prova/AltraProva/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Prova/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
     <orderEntry type="inheritedJdk" />

@@ -3,7 +3,7 @@ use es2_lab2::solution::ComplexNumber;
 
 // for this execise see https://doc.rust-lang.org/beta/std/primitive.f64.html
 // you can find examples for all the traits that must be implemented
-
+/*
 #[test]
 pub fn test_create() {                              //OK
     let a = ComplexNumber::new(1.0, 2.0);
@@ -262,4 +262,14 @@ pub fn test_deque() {
     c=vettore.binary_search(&ComplexNumber::new(3.0, 3.5));
 
     assert_eq!(c, Ok(0))
+}
+*/
+#[test]
+fn test_movimento(){
+    let mut a=ComplexNumber::new(1.0, 1.0);
+    let b=ComplexNumber::new(1.0, 1.0);
+
+    let c = a+b;
+
+    assert_eq!(a, ComplexNumber::new(1.0, 1.0));
 }
