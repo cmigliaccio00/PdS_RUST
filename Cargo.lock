@@ -3,10 +3,6 @@
 version = 3
 
 [[package]]
-name = "AltraProva"
-version = "0.1.0"
-
-[[package]]
 name = "Esempi"
 version = "0.1.0"
 
@@ -16,10 +12,6 @@ version = "0.1.0"
 
 [[package]]
 name = "PdS_Rust"
-version = "0.1.0"
-
-[[package]]
-name = "Prova"
 version = "0.1.0"
 
 [[package]]
