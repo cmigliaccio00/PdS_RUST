@@ -1,6 +1,7 @@
 pub mod solution{
+    use std::arch::x86_64::__m128;
     use std::collections::VecDeque;
-    use std::ops::Deref;
+    use std::ops::{Deref, DerefMut, Index, IndexMut};
 
     pub struct CircularBuffer<T> {
         cap: usize,
@@ -72,9 +73,9 @@ pub mod solution{
             self.tail
         }
 
+        //Riguardare...! Qualche test fallisce
         pub fn make_contiguos(&mut self) {
             if self.tail < self.head{
-                println!("entro qui");
                 let size=(self.cap-self.head);
                 let Tmp=self.tail;
 
@@ -100,6 +101,37 @@ pub mod solution{
         pub fn get_buf(&self) -> &Vec<T> {
             &self.array
         }
-
     }
+
+    //Attenzione: gli indici sono relativi a head
+    impl<T> Index<usize> for CircularBuffer<T>{
+        type Output=T;
+        fn index(&self, index: usize) -> &Self::Output {
+            todo!()
+        }
+    }
+
+    impl<T> IndexMut<usize> for CircularBuffer<T>{
+        fn index_mut(&mut self, index: usize) -> &mut Self::Output {
+            todo!()
+        }
+    }
+
+    impl<T> Deref for CircularBuffer<T>{
+        type Target = ();
+
+        fn deref(&self) -> &Self::Target {
+            todo!()
+        }
+    }
+
+    impl<T> DerefMut for CircularBuffer<T>{
+        fn deref_mut(&mut self) -> &mut Self::Target {
+            todo!()
+        }
+    }
+
+
+
+
 }

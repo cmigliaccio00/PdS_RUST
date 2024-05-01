@@ -3,7 +3,19 @@
 version = 3
 
 [[package]]
+name = "Closures"
+version = "0.1.0"
+
+[[package]]
+name = "Collections"
+version = "0.1.0"
+
+[[package]]
 name = "Esempi"
+version = "0.1.0"
+
+[[package]]
+name = "Iterators"
 version = "0.1.0"
 
 [[package]]

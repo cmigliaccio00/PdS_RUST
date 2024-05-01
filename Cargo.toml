@@ -1,6 +1,9 @@
 workspace = { members = [
     "Esempi",
         "Esempi/Trait_Index",
+        "Esempi/Closures",
+        "Esempi/Collections",
+        "Esempi/Iterators",
     "Laboratori",
         "Laboratori/lab1",
             "Laboratori/lab1/es1_lab1",

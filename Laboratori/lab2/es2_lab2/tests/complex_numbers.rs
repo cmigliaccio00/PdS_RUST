@@ -3,7 +3,7 @@ use es2_lab2::solution::ComplexNumber;
 
 // for this execise see https://doc.rust-lang.org/beta/std/primitive.f64.html
 // you can find examples for all the traits that must be implemented
-/*
+
 #[test]
 pub fn test_create() {                              //OK
     let a = ComplexNumber::new(1.0, 2.0);
@@ -99,7 +99,8 @@ pub fn test_default_values() {
     }
 }
 
-
+/*
+//I prossimi due test usano Into
 #[test]
 pub fn test_convert_into_real() {
     let a = ComplexNumber::from_real(1.0);
@@ -120,8 +121,11 @@ pub fn test_panic_when_impossible_to_convert_to_real() {
 
     assert!(result.is_err());
 }
+*/
 
-/*
+
+
+//Questo test usa il TryInto
 #[test]
 pub fn test_try_into_f64() {
     // write trait and a test for the Trait TryInto for converting into f64
@@ -132,11 +136,9 @@ pub fn test_try_into_f64() {
 
     //Test success
     assert_eq!(z1.try_into(), Ok(3.14));
-
     //Test error
-    assert_eq!(z2.try_into(), Err("Errore"));
+    assert_eq!(z2.try_into(), Err::<f64, String>("Errore".to_string()));
 }
-
 
 #[test]
 pub fn test_try_form_f64() {
@@ -144,12 +146,12 @@ pub fn test_try_form_f64() {
     // and write test
 
     let f=3.14;
-    let complex=f.into();
+    let complex:ComplexNumber=f.into();
 
     assert_eq!(complex, ComplexNumber::new(3.14, 0.0));
 }
 
-*/
+
 #[test]
 pub fn test_comparison() {
     let c = ComplexNumber::new(3.0, 6.0);
@@ -262,14 +264,4 @@ pub fn test_deque() {
     c=vettore.binary_search(&ComplexNumber::new(3.0, 3.5));
 
     assert_eq!(c, Ok(0))
-}
-*/
-#[test]
-fn test_movimento(){
-    let mut a=ComplexNumber::new(1.0, 1.0);
-    let b=ComplexNumber::new(1.0, 1.0);
-
-    let c = a+b;
-
-    assert_eq!(a, ComplexNumber::new(1.0, 1.0));
 }

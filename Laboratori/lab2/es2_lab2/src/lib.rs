@@ -13,8 +13,7 @@ pub mod solution{
     use std::ops::{Add, AddAssign};
     use std::process::Output;
 
-    //#[derive(Copy, Clone, Default, Debug, PartialEq)]
-    #[derive(Default, Debug, PartialEq)]
+    #[derive(Copy, Clone, Default, Debug, PartialEq)]
     pub struct ComplexNumber{
         Real: f64,
         Imag: f64
@@ -97,13 +96,7 @@ pub mod solution{
     }
 
 
-    //Conversioni di tipo
-    impl From<f64> for ComplexNumber{
-        fn from(num: f64) -> Self{
-            ComplexNumber{Real: num, Imag: 0.0}
-        }
-    }
-
+    /*
     impl Into<f64> for ComplexNumber{
         fn into(self) -> f64{
             if self.Imag != 0.0{
@@ -113,15 +106,13 @@ pub mod solution{
             self.Real
         }
     }
+*/
 
-
-
-    /*
     impl TryInto<f64> for ComplexNumber{
         type Error=String;
         fn try_into(self)->Result<f64,Self::Error>{
             if self.Imag != 0.0{
-                Err(String::from("Errore"))
+                Err("Errore".to_string())
             }
             else{
                 Ok(self.Real)
@@ -129,24 +120,11 @@ pub mod solution{
         }
     }
 
-
-    impl TryFrom<ComplexNumber> for f64{
-        type Error=String;
-        fn try_from(value: ComplexNumber) -> Result<Self, Self::Error> {
-            if value.Imag != 0.0{
-                Err(String::from("Errore di conversione"))
-            }
-            else {
-                Ok(value.Real)
-            }
-        }
-    }
     impl Into<ComplexNumber>  for f64{
         fn into(self) -> ComplexNumber {
             ComplexNumber{Real: self, Imag: 0.0}
         }
     }
-    */
 
 
     //Per rendere compatibile i numeri complessi con l'ordinamento
