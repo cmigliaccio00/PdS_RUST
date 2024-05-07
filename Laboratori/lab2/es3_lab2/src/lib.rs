@@ -24,7 +24,8 @@ pub mod solution{
             for _ in 0..capacity{
                 C.array.push(T::default());
             }
-            C
+            C;
+            CircularBuffer{cap:5, array:Vec::new(), head:1, tail:1, size:1}
         }
 
         pub fn write(&mut self, item: T) -> Result<String,String>{
