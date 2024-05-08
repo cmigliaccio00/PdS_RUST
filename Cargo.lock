@@ -15,6 +15,10 @@ name = "Esempi"
 version = "0.1.0"
 
 [[package]]
+name = "IO"
+version = "0.1.0"
+
+[[package]]
 name = "Iterators"
 version = "0.1.0"
 
@@ -24,6 +28,17 @@ version = "0.1.0"
 
 [[package]]
 name = "PdS_Rust"
+version = "0.1.0"
+
+[[package]]
+name = "Serialize"
+version = "0.1.0"
+dependencies = [
+ "serde",
+]
+
+[[package]]
+name = "SmartPointer"
 version = "0.1.0"
 
 [[package]]
@@ -170,6 +185,10 @@ name = "lab3"
 version = "0.1.0"
 
 [[package]]
+name = "lab4"
+version = "0.1.0"
+
+[[package]]
 name = "proc-macro2"
 version = "1.0.81"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -185,6 +204,26 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "0fa76aaf39101c457836aec0ce2316dbdc3ab723cdda1c6bd4e6ad4208acaca7"
 dependencies = [
  "proc-macro2",
+]
+
+[[package]]
+name = "serde"
+version = "1.0.201"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "780f1cebed1629e4753a1a38a3c72d30b97ec044f0aef68cb26650a3c5cf363c"
+dependencies = [
+ "serde_derive",
+]
+
+[[package]]
+name = "serde_derive"
+version = "1.0.201"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "c5e405930b9796f1c00bee880d03fc7e0bb4b9a11afc776885ffe84320da2865"
+dependencies = [
+ "proc-macro2",
+ "quote",
+ "syn",
 ]
 
 [[package]]

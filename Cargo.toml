@@ -4,6 +4,8 @@ workspace = { members = [
         "Esempi/Closures",
         "Esempi/Collections",
         "Esempi/Iterators",
+        "Esempi/IO", "Esempi/IO/Serialize",
+        "Esempi/SmartPointer",
     "Laboratori",
         "Laboratori/lab1",
             "Laboratori/lab1/es1_lab1",
@@ -13,7 +15,8 @@ workspace = { members = [
             "Laboratori/lab2/es2_lab2",
             "Laboratori/lab2/es3_lab2",
             "Laboratori/lab2/es1b_lab2",
-        "Laboratori/lab3"
+        "Laboratori/lab3",
+        "Laboratori/lab4"
 ] }
 [package]
 name = "PdS_Rust"

@@ -23,6 +23,10 @@
       <sourceFolder url="file://$MODULE_DIR$/Esempi/Closures/tests" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/Esempi/Collections/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Esempi/Iterators/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Esempi/IO/Serialize/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Esempi/IO/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Esempi/SmartPointer/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Laboratori/lab4/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
     <orderEntry type="inheritedJdk" />
