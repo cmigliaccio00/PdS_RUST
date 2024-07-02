@@ -6,6 +6,23 @@ workspace = { members = [
         "Esempi/Iterators",
         "Esempi/IO", "Esempi/IO/Serialize",
         "Esempi/SmartPointer",
+        "Esempi/Concorrenza",
+        "Esempi/Concorrenza/thread",
+        "Esempi/Concorrenza/mutex",
+        "Esempi/Concorrenza/condvar",
+        "Esempi/TdE_2023",
+    "Esempi/Concorrenza/crossbeam",
+    "Esempi/Concorrenza/channel",
+    "EsempiEsame",
+        "EsempiEsame/tde_multichannel",
+        "EsempiEsame/tde_mpmc",
+        "EsempiEsame/tde_dq",
+        "EsempiEsame/polimorfismo",
+        "EsempiEsame/SmartPointers",
+        "EsempiEsame/Concurrency",
+        "EsempiEsame/Concurrency/CondVar",
+        "EsempiEsame/Concurrency/Channel",
+        "EsempiEsame/Concurrency/XBeam",
     "Laboratori",
         "Laboratori/lab1",
             "Laboratori/lab1/es1_lab1",
@@ -17,7 +34,7 @@ workspace = { members = [
             "Laboratori/lab2/es1b_lab2",
         "Laboratori/lab3",
         "Laboratori/lab4"
-] }
+, "EsempiEsame"] }
 [package]
 name = "PdS_Rust"
 version = "0.1.0"

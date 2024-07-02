@@ -25,7 +25,7 @@ mod tests {
     //Test sulla funzione conv
     #[test]
     fn lettera_accentata() {
-        // valore = preparazione test
+        // valore = preparazione tests
         assert_eq!(conv('è'), 'e');
     }
 

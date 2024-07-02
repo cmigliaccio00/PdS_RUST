@@ -74,7 +74,7 @@ pub mod solution{
             self.tail
         }
 
-        //Riguardare...! Qualche test fallisce
+        //Riguardare...! Qualche tests fallisce
         pub fn make_contiguos(&mut self) {
             if self.tail < self.head{
                 let size=(self.cap-self.head);

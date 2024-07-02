@@ -66,7 +66,7 @@ pub fn test_add_with_reference() {
 
 #[test]                                             //OK
 pub fn test_add_reference_with_reference() {
-    // write yourself the test and adjust traits
+    // write yourself the tests and adjust traits
     let a = ComplexNumber::new(1.0, 2.0);
     let b = ComplexNumber::new(1.0, 2.0);
 
@@ -100,8 +100,8 @@ pub fn test_default_values() {
 }
 
 /*
-//I prossimi due test usano Into
-#[test]
+//I prossimi due tests usano Into
+#[tests]
 pub fn test_convert_into_real() {
     let a = ComplexNumber::from_real(1.0);
     let b: f64 = a.into();
@@ -110,7 +110,7 @@ pub fn test_convert_into_real() {
 }
 
 
-#[test]
+#[tests]
 pub fn test_panic_when_impossible_to_convert_to_real() {
     // we can convert into a real only if imag is 0
     let a = ComplexNumber::new(1.0, 2.0);
@@ -125,11 +125,11 @@ pub fn test_panic_when_impossible_to_convert_to_real() {
 
 
 
-//Questo test usa il TryInto
+//Questo tests usa il TryInto
 #[test]
 pub fn test_try_into_f64() {
-    // write trait and a test for the Trait TryInto for converting into f64
-    // the test must check both success and error conditions
+    // write trait and a tests for the Trait TryInto for converting into f64
+    // the tests must check both success and error conditions
 
     let z1=ComplexNumber::new(3.14, 0.0);
     let z2=ComplexNumber::new(1.0, 1.0);
@@ -143,7 +143,7 @@ pub fn test_try_into_f64() {
 #[test]
 pub fn test_try_form_f64() {
     // write a trait allowing let complex = f64.into()
-    // and write test
+    // and write tests
 
     let f=3.14;
     let complex:ComplexNumber=f.into();

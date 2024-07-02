@@ -27,6 +27,32 @@
       <sourceFolder url="file://$MODULE_DIR$/Esempi/IO/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Esempi/SmartPointer/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Laboratori/lab4/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Esempi/Concorrenza/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Esempi/Concorrenza/channel/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Esempi/Concorrenza/condvar/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Esempi/Concorrenza/crossbeam/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Esempi/Concorrenza/mutex/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Esempi/Concorrenza/thread/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Esempi/TdE_2023/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/EsempiEsame/Concurrency/Channel/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/EsempiEsame/Concurrency/CondVar/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/EsempiEsame/Concurrency/XBeam/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/EsempiEsame/Concurrency/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/EsempiEsame/SmartPointers/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/EsempiEsame/TdE2024_01/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/EsempiEsame/TdE2024_07/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/EsempiEsame/TdE_Gen24/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/EsempiEsame/TdE_Gen24/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/EsempiEsame/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/EsempiEsame/polimorfismo/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/EsempiEsame/polimorfismo/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/EsempiEsame/tde_dq/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/EsempiEsame/tde_dq/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/EsempiEsame/tde_mpmc/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/EsempiEsame/tde_mpmc/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/EsempiEsame/tde_multichannel/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/EsempiEsame/tde_multichannel/tests" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/EsempiEsame/target" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
     <orderEntry type="inheritedJdk" />
