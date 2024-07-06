@@ -44,14 +44,18 @@
       <sourceFolder url="file://$MODULE_DIR$/EsempiEsame/TdE_Gen24/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/EsempiEsame/TdE_Gen24/tests" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/EsempiEsame/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/EsempiEsame/errori/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/EsempiEsame/esempi_vari/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/EsempiEsame/polimorfismo/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/EsempiEsame/polimorfismo/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/EsempiEsame/processi/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/EsempiEsame/tde_dq/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/EsempiEsame/tde_dq/tests" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/EsempiEsame/tde_mpmc/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/EsempiEsame/tde_mpmc/tests" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/EsempiEsame/tde_multichannel/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/EsempiEsame/tde_multichannel/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/EsempiEsame/io/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/EsempiEsame/target" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
