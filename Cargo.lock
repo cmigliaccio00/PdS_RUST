@@ -479,6 +479,10 @@ name = "tde_looper"
 version = "0.1.0"
 
 [[package]]
+name = "tde_looper2"
+version = "0.1.0"
+
+[[package]]
 name = "tde_mpmc"
 version = "0.1.0"
 

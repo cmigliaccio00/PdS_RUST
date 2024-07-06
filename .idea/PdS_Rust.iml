@@ -62,6 +62,7 @@
       <sourceFolder url="file://$MODULE_DIR$/EsempiEsame/iteratori/tests" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/EsempiEsame/tde_looper/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/EsempiEsame/tde_looper/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/EsempiEsame/tde_looper2/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/EsempiEsame/test_looper/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/EsempiEsame/target" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
