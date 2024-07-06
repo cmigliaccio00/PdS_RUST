@@ -22,7 +22,6 @@ workspace = { members = [
         "EsempiEsame/iteratori",
         "EsempiEsame/processi",
         "EsempiEsame/tde_looper",
-        "EsempiEsame/test_looper",
         "EsempiEsame/tde_dq",
         "EsempiEsame/polimorfismo",
         "EsempiEsame/SmartPointers",
