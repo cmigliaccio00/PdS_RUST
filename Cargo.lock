@@ -475,6 +475,10 @@ name = "tde_dq"
 version = "0.1.0"
 
 [[package]]
+name = "tde_execlimiter"
+version = "0.1.0"
+
+[[package]]
 name = "tde_looper"
 version = "0.1.0"
 

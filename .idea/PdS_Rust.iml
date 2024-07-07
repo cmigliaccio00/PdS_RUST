@@ -60,6 +60,8 @@
       <sourceFolder url="file://$MODULE_DIR$/EsempiEsame/io/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/EsempiEsame/iteratori/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/EsempiEsame/iteratori/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/EsempiEsame/tde_execlimiter/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/EsempiEsame/tde_execlimiter/tests" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/EsempiEsame/tde_looper/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/EsempiEsame/tde_looper/tests" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/EsempiEsame/tde_looper2/src" isTestSource="false" />
