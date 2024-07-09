@@ -50,10 +50,9 @@ pub mod ranking{
                //Cambio lo stato! Questo sblocca gli altri thread dall'attesa facendo fallire
                //il predicato nella wait_while
                (*lock).1 = Stato::Uscita;
+               //Sveglio tutti dall'attesa
+               self.cvar.notify_all();
            }
-
-           //Sveglio tutti dall'attesa
-           self.cvar.notify_all();
 
            //Decremento il contatore (questa operazione la fanno tutti)
            (*lock).0 = (*lock).0 - 1;
