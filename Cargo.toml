@@ -27,6 +27,8 @@ workspace = { members = [
         "EsempiEsame/tde_exchanger",
         "EsempiEsame/tde_dq",
         "EsempiEsame/tde_rankingbarrier",
+        "EsempiEsame/tde_cache",
+        "EsempiEsame/tde_dispatcher",
         "EsempiEsame/polimorfismo",
         "EsempiEsame/cmd",
         "EsempiEsame/cmdline",

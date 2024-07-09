@@ -70,6 +70,10 @@
       <sourceFolder url="file://$MODULE_DIR$/EsempiEsame/tde_exchanger/tests" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/EsempiEsame/cmd/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/EsempiEsame/cmdline/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/EsempiEsame/tde_cache/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/EsempiEsame/tde_cache/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/EsempiEsame/tde_dispatcher/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/EsempiEsame/tde_dispatcher/tests" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/EsempiEsame/tde_rankingbarrier/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/EsempiEsame/tde_rankingbarrier/tests" isTestSource="true" />
       <excludeFolder url="file://$MODULE_DIR$/EsempiEsame/target" />

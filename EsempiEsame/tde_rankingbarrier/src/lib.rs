@@ -82,6 +82,4 @@ pub mod ranking{
             ((*lock).0, (*lock).1)
         }
     }
-
-
 }
